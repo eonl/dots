@@ -119,6 +119,9 @@ TERM=xterm-256color
 # ALIASES
 alias wifi='wicd-client'
 alias lock='source ~/Documents/locking/lock.sh'
+alias off='sudo shutdown -P now'
+alias gameboy='/usr/bin/VisualBoyAdvance'
+
 #export PROMPT_COMMAND="echo -n \[\$(date +%H:%M:%S)\]\ "
 #export TERMINAL_COMMAND
 export PS1="\e[38;5;119m-> \e[38;5;254m "
@@ -128,4 +131,4 @@ export PS1="\e[38;5;119m-> \e[38;5;254m "
 alias todo="vim ~/Documents/tasks/todo"
 
 # compton startup
-compton -c -i 0.95 -z -b
+compton -c -i 0.85 -z -b

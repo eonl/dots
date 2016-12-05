@@ -154,8 +154,8 @@ bar {
 }
 
 # test  i3 gap, August 23 2016
-gaps inner 10
-gaps outer 10
+gaps inner 5
+gaps outer 4
 
 for_window [class="^.*"] border pixel 0
 new_window normal 0
@@ -172,8 +172,8 @@ bindcode 121 exec --no-startup-id pactl set-sink-mute 1 toggle # mute sound
 
 
 # Sreen brightness controls
-bindcode 233 exec xbacklight -inc 20 # increase screen brightness
-bindcode 232 exec xbacklight -dec 20 # decrease screen brightness
+bindcode 233 exec xbacklight -inc 10 # increase screen brightness
+bindcode 232 exec xbacklight -dec 10 # decrease screen brightness
 
 ###bindcode 172 exec playerctl play
 bindcode 172 exec playerctl pause

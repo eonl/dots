@@ -3,7 +3,7 @@ Xcursor.theme: Ring-Black
 
 ! special
 *.foreground:   #c8e692
-*.background:   #2e2c39
+*.background:   #060607
 *.cursorColor:  #cc6666
 
 ! black
@@ -39,7 +39,7 @@ Xcursor.theme: Ring-Black
 *.color15:      #dbd6d1
 
 URxvt.scrollBar: false
-URxvt.font: xft:gohufont:hinting=true:pixelsize=9:antialias=false
+URxvt.font: xft:dejavu sans mono:hinting=true:pixelsize=9:antialias=true
 URxvt.internalBorder: 14
 
 URxvt.perl-ext-common: default,tabbed
